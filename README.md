@@ -2,6 +2,15 @@
 
 This has been copied from https://github.com/robertoostenveld/arduino from the subdirectory `esp8266_artnet_dmx512`.
 
+To install run...
+
+ * pio run -t upload
+ * pio run -t uploadfs
+
+--------------------------------------------------------------------------------------------------------
+
+Original README follows.
+
 # Overview
 
 This sketch implements a WiFi module that uses the Art-Net protocol over a wireless connection to control wired stage lighting fixtures/lamps that are DMX512 compatible. It listens to incoming Art-Net packets and forwards a single universe to DMX512. It features over-the-air (OTA) configuration of the wifi network that it connects to, configuration of the universe that is forwarded, and monitoring of the incoming packets and the frame rate.
